@@ -15,7 +15,7 @@ while($data = $result->fetchArray()) {
 
 $sum_ports = array_keys($sum_ports_byname);
 
-$protocol = array( 1 => "TCP", "UDP", "UDP/TCP" );
+$protocol = array( "UNKNOWN", "TCP", "UDP", "UDP/TCP" );
 
 if(isset($argv[1])) {
 	if( isset($sum_ports_byname[$argv[1]]) ){
