@@ -25,7 +25,6 @@ if(isset($argv[1])) {
 	}
 }else{
 	do {
-		echo ".";
 		$random = rand(0, 65535);
 	}while( in_array($random, $sum_ports) );
 
