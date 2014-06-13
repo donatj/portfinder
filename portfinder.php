@@ -1,3 +1,4 @@
+#!/usr/bin/env php
 <?php
 
 $db = new SQLite3('port_data.sqlite');
